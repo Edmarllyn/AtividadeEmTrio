@@ -30,11 +30,13 @@ header {
 header > h1 {
     color: #fff;
     font-size: 45px;
+    margin-left: -170px;
 }
 
 header img {
-    width: 11rem;
+    width: 9rem;
     height: auto;
+    margin-left: -200px
 }
 
 /* Menu de Navegação */
@@ -68,7 +70,7 @@ header img {
 }
 
 .item-menu-header > a:hover {
-    color: #ffc6ff;
+    color: #f669f6;
     transition: 1s;
 }
 
@@ -99,7 +101,7 @@ header img {
 
 .section-banner p {
     font-size: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 
 .section-banner .btn {
