@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faculdade Alura</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="Faculdade.css">
-    <script src="faculdade.js" defer></script>
+    
 </head>
 <body>
     <header>
@@ -32,7 +34,7 @@
     </header>
 
     <main>
-        <section class="section-banner">
+        <section id="section-1" class="section-banner">
             <div class="banner">
                 <h1>Transforme sua carreira com conhecimento!</h1>
                 <p>Invista em você mesmo e abra as portas para novas oportunidades!</p>
@@ -64,9 +66,7 @@
                         <p>R$ 54,99</p>
                         <a href="#" class="btn">Comprar Agora</a>
                     </div>
-                </div>
 
-                <div class="produtos-pai">
                     <!-- Produto 4 -->
                     <div class="produtos">
                         <img src="img/foto 4.jpg" alt="Inteligência Artificial">
@@ -120,5 +120,16 @@
             </ul>
         </div>
     </footer>
+
+     <!--Inclui jQuery (biblioteca de javascript que simplifica o codigo)-->
+    <!--jQuery é necessário para o slick carousel funcionar, por isso deve ser adicionado antes-->
+    <!--Aqui, usamos o link CDN para obter o jQuery diretamente da web-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Incluir o javascript do slick carousel, que controla a funcionalidade do carrossel-->
+    <!--Link CDN do javaScript do slick, essencial para inicializar e consigurar o carrossel-->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="faculdade.js" defer></script>
 </body>
 </html>

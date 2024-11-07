@@ -169,20 +169,19 @@ header {
 /* Grade de Produtos */
 .produtos-pai {
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Espaçamento entre os produtos */
-    justify-content: center;
-    margin-bottom:35px;
+    gap: 60px; /* Espaçamento entre os produtos */
+    justify-content: space-between;
 }
 
 /* Estilo dos Produtos Individuais */
 .produtos {
     background: #fff;
-    width: 250px; 
+    width: 50px; 
     border: 1px solid #ddd;
     border-radius: 10px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
+    gap: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -193,9 +192,10 @@ header {
 }
 
 .produtos img {
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 15px; 
+    
 }
 
 .produtos h3 {
